@@ -1,8 +1,15 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
-$theme-colors: (
-  "primary": #298f92,
-);
+// $theme-colors: (
+//   "primary": #298f92,
+// );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-custom {
+  background-color: #298f92;
+}
+.footer {
+  background-color: #4d4d4d;
+}
